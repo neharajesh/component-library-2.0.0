@@ -11,7 +11,7 @@ export const Layout = ({ children }) => {
       <>
         <Header handleToggleSidebar={handleToggleSidebar} />
         <div className="container-app">
-          <Sidebar sidebar={sidebar} handleToggleSidebar={handleToggleSidebar} />
+          <Sidebar sidebar={sidebar} />
           <div className="container-page">{children}</div>
         </div>
       </>

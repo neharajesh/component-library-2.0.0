@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./sidebar.css";
 
-export const Sidebar = ({ sidebar, handleToggleSidebar }) => {
+export const Sidebar = ({ sidebar }) => {
   return (
     <>
       <nav className={sidebar ? "sidebar open" : "sidebar"}>
@@ -11,7 +11,7 @@ export const Sidebar = ({ sidebar, handleToggleSidebar }) => {
         <li>Badge</li>
         <NavLink to="/documentation/buttons" className="nav-link" activeClassName="nav-active">Buttons</NavLink>
         <li>Card</li>
-        <li>Image</li>
+        <NavLink to="/documentation/images" className="nav-link" activeClassName="nav-active">Images</NavLink>
         <li>Input</li>
         <li>Lists</li>
         <li>Modal</li>
