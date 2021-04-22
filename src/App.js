@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router"
-import "./main.css"
+import "./styles.css"
 import { Home } from "./pages/Home";
 import { Layout } from "./Layout/Layout";
 import { About } from "./pages/About";
 
-import { Utilities } from "./components/utilities/Utilities";
-import { Buttons } from "./components/buttons/Buttons";
+import { Utilities } from "./components/Utilities";
+import { Buttons } from "./components/Buttons";
 
 export const App = () => {
   return(<>
