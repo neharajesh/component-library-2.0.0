@@ -1,0 +1,45 @@
+:root {
+    --color-primary-grey: #6b7280;
+    --color-primary-red: #ef4444;
+    --color-primary-yellow: #f59e0b;
+    --color-primary-green: #10b981;
+    --color-primary-pink: #ec4899;
+    --color-primary-purple: #8b5cf6;
+    --color-primary-blue: #3B82F6;
+
+    --color-secondary-grey: #E5E7EB;
+    --color-secondary-red: #FECACA;
+    --color-secondary-yellow: #FEF3C7;
+    --color-secondary-green: #A7F3D0;
+    --color-secondary-pink: #FBCFE8;
+    --color-secondary-purple: #DDD6FE;
+    --color-secondary-blue: #C7D2FE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container-app {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.container-page {
+    height: 90vh;
+    width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 1rem;
+}

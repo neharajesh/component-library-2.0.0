@@ -1,0 +1,27 @@
+@import url("../../main.css");
+
+.btn__primary__pink { background-color: var(--color-primary-pink); }
+.btn__primary__blue { background-color: var(--color-primary-blue); }
+.btn__primary__yellow { background-color: var(--color-primary-yellow); }
+.btn__primary__red { background-color: var(--color-primary-red); }
+.btn__primary__green { background-color: var(--color-primary-green); }
+.btn__primary__purple { background-color: var(--color-primary-purple); }
+.btn__primary__disabled { 
+    background-color: var(--color-primary-grey); 
+    cursor: context-menu;
+}
+
+.btn__secondary__pink { border-color: var(--color-primary-pink); background-color: var(--color-secondary-pink); }
+.btn__secondary__blue { border-color: var(--color-primary-blue); background-color: var(--color-secondary-blue); }
+.btn__secondary__yellow { border-color: var(--color-primary-yellow); background-color: var(--color-secondary-yellow); }
+.btn__secondary__red { border-color: var(--color-primary-red); background-color: var(--color-secondary-red); }
+.btn__secondary__green { border-color: var(--color-primary-green); background-color: var(--color-secondary-green); }
+.btn__secondary__purple { 
+    border-color: var(--color-primary-purple); 
+    background-color: var(--color-secondary-purple); 
+}
+.btn__secondary__disabled { 
+    border-color: var(--color-primary-grey); 
+    background-color: var(--color-secondary-grey); 
+    cursor: context-menu 
+}
