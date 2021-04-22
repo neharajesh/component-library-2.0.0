@@ -8,7 +8,7 @@ export const Sidebar = ({ sidebar }) => {
         <li>Getting Started</li>
         <li>Alert</li>
         <li>Avatar</li>
-        <NavLink to="/documentation/badges" className="nav-link" activeClassName="nav-active">Badges</NavLink>
+        <NavLink to=" " className="nav-link" activeClassName="nav-active">Badges</NavLink>
         <NavLink to="/documentation/buttons" className="nav-link" activeClassName="nav-active">Buttons</NavLink>
         <NavLink to="/documentation/cards" className="nav-link" activeClassName="nav-active">Cards</NavLink>
         <NavLink to="/documentation/images" className="nav-link" activeClassName="nav-active">Images</NavLink>

@@ -13,7 +13,7 @@ import { Badges } from "./components/Badges";
 export const App = () => {
   return(<>
     <Routes>
-      <Route exact path="/"><Home /></Route>
+      <Route exact path="/"><Layout><Home /></Layout></Route>
       <Route path="/documentation"><Layout></Layout></Route>
       <Route path="/about"><About /></Route>
 
